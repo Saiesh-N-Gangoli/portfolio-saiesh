@@ -1,0 +1,139 @@
+.side-container{
+    background-color: #1e1e1f;
+    width: 74%;
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
+}
+
+.topNavigationBar ul li{
+    list-style: none;
+    color: #cecece;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.topNavigationBar ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.topNavigationBar{
+    background-color: #282829;
+    width: 40%;
+    float: right;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.content-header h2{
+    display: inline;
+    color: #fafafa;
+}
+
+.content-header{
+    position: relative;
+    display: inline-block;
+    top: 45px;
+    left: 15px;
+}
+
+.content-header::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 40px; 
+    height: 4px; 
+    background-color: hsl(35, 100%, 68%);
+    border-radius: 4px;
+  }
+
+.side-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.underline{
+    background-color: #fafafa;
+}
+
+.aboutMeContents{
+    position: relative;
+    top: 50px;
+    width: 96%;
+    left: 15px;
+    text-align: justify;
+}
+
+.aboutMeContents p{
+    margin: 0;
+    color: #cecece;
+}
+
+.aboutMeContents h2{
+    color: #fafafa;
+}
+
+.what-i-am-doing{
+    position: relative;
+    display: inline-block;
+}
+
+.what-i-am-doing h2{
+    margin: 0;
+    margin-top: 10px;
+}
+
+.what-i-am-doing::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 40px; 
+    height: 4px; 
+    background-color: hsl(35, 100%, 68%);
+    border-radius: 4px;
+  }
+
+.main-skills-box{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.skill-box{
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, hsla(240, 1%, 18%, 0.251), hsla(240, 2%, 11%, 0));
+    background-color: hsl(240, 2%, 13%);
+    border-radius: 5px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.skill-box-content h3{
+    margin: 0;
+}
+
+.skill-box-header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill-box-header h3{
+    margin: 0;
+    color: #fafafa;
+}
+
+.content-divison{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

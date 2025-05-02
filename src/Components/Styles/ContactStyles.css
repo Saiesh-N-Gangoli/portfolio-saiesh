@@ -1,0 +1,126 @@
+.textfield-style{
+    padding: 10px;
+    width: 277px;
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 22%);
+    border-radius: 5px;
+}
+
+.top-text-fields{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    caret-color: #ffdb70;
+}
+
+.top-text-fields input{
+    color: #fdf2d1;
+}
+
+.top-text-fields input:focus{
+    outline: none;
+    border: 1px solid #fdf2d1;
+}
+
+.bottomTextArea textarea{
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 22%);
+    border-radius: 5px;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    padding: 10px;
+    caret-color: #ffdb70;
+    color: #fdf2d1;
+}
+
+.bottomTextArea textarea:focus{
+    outline: none;
+    border: 1px solid #fdf2d1;
+}
+
+.button-send{
+    margin-top: 8px;
+    background-color: #282829;
+    color: #ffdb70;
+    font-size: 12px;
+    float: right;
+}
+
+.button-send:focus{
+    outline: none;
+}
+
+.button-send:hover{
+    border: 1px solid #ffdb70;
+}
+
+.main-contact-container{
+    display: flex;
+    gap: 10px;
+}
+
+.social-media{
+    border: 1px solid hsl(0, 0%, 22%);
+    width: 280px;
+    border-radius: 5px;
+}
+
+.social-media h3{
+    text-align: center;
+    color: #fafafa;
+    position: relative;
+}
+
+.social-media h3::after{
+    content: '';
+    position: absolute;
+    left: 73px;
+    bottom: -6px;
+    width: 40px; 
+    height: 4px; 
+    background-color: hsl(35, 100%, 68%);
+    border-radius: 4px;
+}
+
+.social-media ul li{
+    list-style: none;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+.social-media ul{
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    justify-content: center;
+}
+
+.address-map h3{
+    text-align: center;
+    color: #fafafa;
+    position: relative;
+    margin-top: 3px;
+}
+
+.address-map h3::after{
+    content: '';
+    position: absolute;
+    left: 105px;
+    bottom: -6px;
+    width: 40px; 
+    height: 4px; 
+    background-color: hsl(35, 100%, 68%);
+    border-radius: 4px;
+}
+
+.address-map{
+    border: 1px solid hsl(0, 0%, 22%);
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    width: 280px;
+}
+
+.map-figure{
+    display: flex;
+    justify-content: center;
+}

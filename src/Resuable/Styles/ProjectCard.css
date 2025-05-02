@@ -1,0 +1,41 @@
+.project-main-card {
+  padding: 15px;
+  background: hsl(240, 2%, 13%);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(
+    to bottom right,
+    hsla(240, 1%, 18%, 0.251),
+    hsla(240, 2%, 11%, 0)
+  );
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-main-card h3 {
+  margin: 0;
+}
+
+.paragraph {
+  font-size: 13px;
+}
+
+.name {
+  color: #fafafa;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px !important;
+  font-size: 17px;
+}
+
+.name::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 40px;
+  height: 4px;
+  background-color: hsl(35, 100%, 68%);
+  border-radius: 4px;
+}
+
+

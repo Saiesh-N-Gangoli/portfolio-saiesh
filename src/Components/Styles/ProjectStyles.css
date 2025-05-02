@@ -1,0 +1,20 @@
+.project-filters ul {
+  display: flex;
+  gap: 25px;
+  padding: 0;
+}
+
+.project-filters ul li {
+  list-style: none;
+  color: #fafafa;
+  padding: 0;
+}
+
+.projectCards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 0px 20px 20px 20px;
+  height: 300px;
+  overflow: auto;
+}
